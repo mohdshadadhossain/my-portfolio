@@ -15,9 +15,9 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-            Creative and detail-oriented front-end developer skilled in HTML, CSS, JavaScript, and Python. I focus on building responsive, accessible web applications that blend functionality with clean design.
+            Creative and detail-oriented Junior front-end developer skilled in HTML, CSS, JavaScript, and Python. I focus on building responsive, accessible web applications that blend functionality with clean design.
             <br />
-            With a passion for solving problems and refining my skills, I'm dedicated to delivering impactful digital experiences and continuously growing in the ever-evolving world of web development.
+            Driven by a passion for problem-solving and a solid foundation in object-oriented programming, I am committed to refining my skills and delivering impactful digital experiences. I strive to continuously grow and adapt in the ever-evolving world of web development.
           </h4>
 
           <div className="aboutBtn">
