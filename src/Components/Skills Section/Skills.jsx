@@ -9,7 +9,7 @@ import { DiPhp } from 'react-icons/di'
 import { FaGitSquare } from 'react-icons/fa'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { BsWordpress } from 'react-icons/bs'
-import { SiMysql } from 'react-icons/si'
+import { SiMysql, SiPython } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -64,7 +64,7 @@ const Skills = () => {
             </div>
             <div className="singleSkill">
               <div className="iconBox flex">
-                <DiPhp className='icon' />
+                <SiPython className='icon' />
               </div>
               <span className='skillName'>Python</span>
             </div>
