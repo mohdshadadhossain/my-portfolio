@@ -34,24 +34,11 @@ const Contact = () => {
               </div>
               <h4>LinkedIn</h4>
               <span className="userName">
-                @IsraTech
+                @mohdshossain
               </span>
 
               <div>
-                <a className='flex' href="https://www.linkedin.com" target="_blank">Send Message <TbArrowBigRightLine className="icon" /></a>
-              </div>
-            </div>
-            <div className="card">
-              <div>
-                <AiOutlineTwitter className="icon instaIcon" />
-              </div>
-              <h4>Twitter</h4>
-              <span className="userName">
-                @Aba_graphics
-              </span>
-
-              <div>
-                <a className='flex' href="https://twitter.com/Aba_graphics" target="_blank">Send Message <TbArrowBigRightLine className="icon" /></a>
+                <a className='flex' href="https://www.linkedin.com/in/mohdshossain" target="_blank">Send Message <TbArrowBigRightLine className="icon" /></a>
               </div>
             </div>
           </div>
