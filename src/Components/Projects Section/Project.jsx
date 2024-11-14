@@ -54,9 +54,9 @@ const data = [
   {
     id: 5,
     image: img2,
-    demo: 'https://www.youtube.com/watch?v=PKOZKFDEw8Q',
-    liveLink: 'https://github.com/IsraelAbaho/Atlantis-The-Royal-Website',
-    github: 'https://github.com/IsraelAbaho/navbar',
+    demo: 'https://www.youtube.com',
+    liveLink: 'https://mohdshadadhossain.github.io/Atlantis-Hotel/',
+    github: 'https://github.com/mohdshadadhossain/Atlantis-Hotel',
     title: 'Hotel Website',
     desc: 'This is a presentation project to the Atlantis The Royal - Dubai for hotel room rates and reservations. It was presented on 18th March, 2022',
     tech1: 'Html',
