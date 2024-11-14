@@ -13,19 +13,7 @@ import img8 from '../../Assets/friendsApp.png'
 import img9 from '../../Assets/cvGenerator.png'
 
 const data = [
-  {
-    id: 1,
-    image: img6,
-    demo: 'https://www.youtube.com/watch?v=Ei9bZJ-EG8o',
-    liveLink: '',
-    github: '',
-    title: 'Hotel Incidents Docket',
-    desc: 'This is an active internal system for a certain Hotel, a Database that helps in storing all the incidents on hotel. ',
-    tech1: 'Html',
-    tech2: 'CSS',
-    tech3: 'JavaScript',
-    tech3: 'PHP',
-  },
+
 
   {
     id: 2,
@@ -75,18 +63,7 @@ const data = [
     tech2: 'CSS',
     tech3: 'JavaScript',
   },
-  {
-    id: 6,
-    image: img3,
-    demo: 'https://www.youtube.com/watch?v=AVL_cWI5MIA',
-    liveLink: 'https://isratechgamingwebsite.netlify.app/',
-    github: '',
-    title: 'Gaming Gear Shop Website',
-    desc: 'A personal project for gaming gear wesbite. I wanted to implement an add to cart functionality for each item.',
-    tech1: 'Html',
-    tech2: 'CSS',
-    tech3: 'JavaScript',
-  },
+
   {
     id: 7,
     image: img4,
@@ -98,18 +75,6 @@ const data = [
     tech1: 'Html',
     tech2: 'CSS',
     tech3: 'JavaScript',
-  },
-  {
-    id: 8,
-    image: img5,
-    demo: 'https://www.youtube.com/watch?v=vWvTdh1MAJc&t=321s',
-    github: '',
-    title: 'Restaurant Menu (Web App)',
-    desc: "This is a freelance full stack project. Users are able to order and receive services based off their orders through the application.",
-    tech1: 'Html',
-    tech2: 'CSS',
-    tech3: 'JavaScript',
-    tech4: 'PHP'
   },
 
   {
