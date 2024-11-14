@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './project.css'
-import {AiFillYoutube} from 'react-icons/ai'
-import {FiGithub} from 'react-icons/fi'
+import { AiFillYoutube } from 'react-icons/ai'
+import { FiGithub } from 'react-icons/fi'
 import img from '../../Assets/PIZZA.jpg'
 import img2 from '../../Assets/ATR.png'
 import img3 from '../../Assets/gaming-two.png'
@@ -30,9 +30,9 @@ const data = [
   {
     id: 2,
     image: img9,
-    demo: 'https://www.youtube.com/watch?v=wxI-RuDfC8Y',
-    liveLink: 'https://cvgeneratorapp.netlify.app/',
-    github: 'https://github.com/IsraelAbaho/cv-generator-app',
+    demo: 'https://www.youtube.com',
+    liveLink: 'https://mohdshadadhossain.github.io/CV-Generator-App/',
+    github: 'https://github.com/mohdshadadhossain/CV-Generator-App',
     title: 'CV Generator App',
     desc: 'Frontend application that helps the user to generate CV by filling the fields and clicking download CV Button.',
     tech1: 'Html',
@@ -111,7 +111,7 @@ const data = [
     tech3: 'JavaScript',
     tech4: 'PHP'
   },
- 
+
   {
     id: 9,
     image: img7,
@@ -130,47 +130,47 @@ const Project = () => {
   return (
     <section id='projects' className='projects container section'>
       <div class="sectionTitle">
-      <span class="titleNumber">03 . </span>  
-      <h5 class="titleText">Projects <div class="underline"><span></span></div></h5>
+        <span class="titleNumber">03 . </span>
+        <h5 class="titleText">Projects <div class="underline"><span></span></div></h5>
       </div>
 
-      <div className="projectContainer grid"> 
-          { 
-          data.map(({id, github, image, liveLink, desc, demo, title, tech1, tech2, tech3, tech4}) =>{
+      <div className="projectContainer grid">
+        {
+          data.map(({ id, github, image, liveLink, desc, demo, title, tech1, tech2, tech3, tech4 }) => {
             return (
               <div key={id} className="singleProject">
                 <div className="externalLinks flex">
-                <div className="youtubeIcon">
-                <a href={demo} target="_blank"><AiFillYoutube className="icon"/></a>
+                  <div className="youtubeIcon">
+                    <a href={demo} target="_blank"><AiFillYoutube className="icon" /></a>
+                  </div>
+                  <div className="githubIcon">
+                    <a href={github} target="_blank"><FiGithub className="icon" /></a>
+                  </div>
                 </div>
-                <div className="githubIcon">
-                <a href={github} target="_blank"><FiGithub className="icon"/></a>
+
+                <div className="imgDiv">
+                  <a href={liveLink} target="_blank">
+                    <img src={image} alt={title} />
+                  </a>
                 </div>
+                <div className="projectTitle">
+                  <h3>{title}</h3>
                 </div>
-              
-             <div className="imgDiv">
-              <a href={liveLink} target="_blank">
-              <img src={image} alt={title} /> 
-              </a>
-             </div>
-             <div className="projectTitle">
-              <h3>{title}</h3>
-             </div>
-             <div className="desc">
-              {desc}
-             </div>
-             <div className="technologies flex">
-                <small> {tech1} </small>
-                <small> {tech2} </small>
-                <small> {tech3} </small>
-                <small> {tech4} </small>
-                
-             </div>
-             </div>
+                <div className="desc">
+                  {desc}
+                </div>
+                <div className="technologies flex">
+                  <small> {tech1} </small>
+                  <small> {tech2} </small>
+                  <small> {tech3} </small>
+                  <small> {tech4} </small>
+
+                </div>
+              </div>
             )
 
-           })
-           }
+          })
+        }
       </div>
 
     </section>
