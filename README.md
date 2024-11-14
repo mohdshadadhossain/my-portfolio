@@ -1,3 +1,5 @@
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
 Step 1: Install Node.js and npm
 Make sure you have Node.js and npm (Node Package Manager) installed on your computer. You can download them from nodejs.org. To check if you have them installed, run the following commands in your terminal:
