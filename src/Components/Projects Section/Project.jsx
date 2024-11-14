@@ -67,9 +67,9 @@ const data = [
   {
     id: 7,
     image: img4,
-    demo: 'https://www.youtube.com/watch?v=aPKxH5En9rw&t=4s',
-    liveLink: 'https://israeldeliverywebsite.netlify.app',
-    github: 'https://github.com/IsraelAbaho/respnsive-delivery-website',
+    demo: 'https://www.youtube.com',
+    liveLink: 'https://mohdshadadhossain.github.io/Responsive-Delivery-Website',
+    github: 'https://github.com/mohdshadadhossain/Responsive-Delivery-Website',
     title: 'Online Delivery Website',
     desc: 'A frontend freelance project for a local Dubai business designed to showcase my skills in building responsive websites. This site highlights the business’s services and provides easy access to contact information',
     tech1: 'Html',
