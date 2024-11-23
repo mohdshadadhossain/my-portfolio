@@ -49,7 +49,7 @@ const Navbar = () => {
             <a href="#contact" className="navLink"><span className='headerNumber'>4.</span>Contact</a>
           </li>
           <button className='btn'>
-            <a href="Dimas UML.docx" download="Dimas UML.docx">Resume</a>
+            <a href="Mohammed Hossain CV .docx" download="Mohammed Hossain CV .docx">Resume</a>
           </button>
         </ul>
 

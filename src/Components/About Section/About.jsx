@@ -21,7 +21,7 @@ const About = () => {
           </h4>
 
           <div className="aboutBtn">
-            <a className='flex' href="Dimas UML.docx" download="Dimas UML.docx" >Download CV <VscCloudDownload /></a>
+            <a className='flex' href="Mohammed Hossain CV .docx" download="Mohammed Hossain CV .docx" >Download CV <VscCloudDownload /></a>
           </div>
         </div>
         <div className="aboutImgDiv">
