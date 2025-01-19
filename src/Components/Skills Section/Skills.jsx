@@ -10,6 +10,8 @@ import { FaGitSquare } from 'react-icons/fa'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { BsWordpress } from 'react-icons/bs'
 import { SiMysql, SiPython } from 'react-icons/si'
+import { FaMicrosoft } from 'react-icons/fa'
+import { FaRegFileExcel } from 'react-icons/fa'
 
 const Skills = () => {
   return (
@@ -77,18 +79,18 @@ const Skills = () => {
         {/* single Group of skills */}
         <div className="skillGroup">
           <div className="groupTitle">
-            <h2 className="title">Other Skills</h2>
+            <h2 className="title">Data Analysis</h2>
             <span className="subTitle">
-              2 Years Experience
+              5 Years Experience
             </span>
           </div>
           <div className="generalSkills">
             {/* Single skill div */}
             <div className="singleSkill">
               <div className="iconBox flex">
-                <FaGitSquare className='icon' />
+                <FaRegFileExcel className='icon' />
               </div>
-              <span className='skillName'>Git</span>
+              <span className='skillName'>Excel</span>
             </div>
             <div className="singleSkill">
               <div className="iconBox flex">
@@ -98,9 +100,9 @@ const Skills = () => {
             </div>
             <div className="singleSkill">
               <div className="iconBox flex">
-                <BsWordpress className='icon' />
+                <FaMicrosoft className='icon' />
               </div>
-              <span className='skillName'>Wordpress</span>
+              <span className='skillName'>Power BI</span>
             </div>
             <div className="singleSkill">
               <div className="iconBox flex">

@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import img from '../../Assets/Picture.jpg'
 import { VscCloudDownload } from 'react-icons/vsc'
-// import cvv from '../../Assets/FRONTEND DEVELOPER.pdf'
+// import cvv from '../../Assets/Mohammed_DataAnalyst_CV.docx'
 
 const About = () => {
   return (
@@ -15,13 +15,13 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-            Creative and detail-oriented Junior front-end developer skilled in HTML, CSS, JavaScript, and Python. I focus on building responsive, accessible web applications that blend functionality with clean design.
+            Analytical and detail-oriented Data Analyst skilled in SQL, Excel, and Power BI. I focus on extracting insights from complex datasets to drive informed decision-making.
             <br />
-            Driven by a passion for problem-solving and a solid foundation in object-oriented programming, I am committed to refining my skills and delivering impactful digital experiences. I strive to continuously grow and adapt in the ever-evolving world of web development.
+            Driven by a passion for data storytelling, critical thinking, and a strong foundation in statistical analysis, I am committed to enhancing my skills and delivering actionable insights. I strive to continuously evolve and adapt in the fast-paced world of data analysis.
           </h4>
 
           <div className="aboutBtn">
-            <a className='flex' href="Mohammed Hossain CV .docx" download="Mohammed Hossain CV .docx" >Download CV <VscCloudDownload /></a>
+            <a className='flex' href="Mohammed_DataAnalyst_CV.docx" download="Mohammed_DataAnalyst_CV.docx" >Download CV <VscCloudDownload /></a>
           </div>
         </div>
         <div className="aboutImgDiv">

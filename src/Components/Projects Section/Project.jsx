@@ -4,17 +4,53 @@ import { AiFillYoutube } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import img from '../../Assets/PIZZA.jpg'
 import img2 from '../../Assets/ATR.png'
-import img3 from '../../Assets/gaming-two.png'
+import img1 from '../../Assets/Preview- Dashboard.jpg'
 import img4 from '../../Assets/delivery.png'
-import img5 from '../../Assets/Thumbnail.png'
-import img6 from '../../Assets/database.jpeg'
+import img5 from '../../Assets/sql.png'
+import img6 from '../../Assets/dashboard in excel.jpg'
 import img7 from '../../Assets/soccer.png'
 import img8 from '../../Assets/friendsApp.png'
 import img9 from '../../Assets/cvGenerator.png'
 
 const data = [
 
+  {
+    id: 1,
+    image: img1,
+    demo: 'https://www.youtube.com',
+    liveLink: 'https://github.com/mohdshadadhossain/AdventureWorks-Sales-Analysis',
+    github: 'https://github.com/mohdshadadhossain/AdventureWorks-Sales-Analysis',
+    title: 'Sales Data Analysis Using Power BI and Excel',
+    desc: 'This project leveraged statistical analysis for identifying patterns, Power BI for creating interactive dashboards and visualizations of sales and profitability, and Microsoft Excel for data manipulation and reporting. These tools enabled comprehensive insights into sales performance and customer demographics.',
+    tech1: 'PowerBI',
+    tech2: 'Microsoft Excel (Advanced)',
+    tech3: 'SAS',
+  },
 
+  {
+    id: 1,
+    image: img5,
+    demo: 'https://www.youtube.com',
+    liveLink: 'https://github.com/mohdshadadhossain/SQL_DataCleaning_Processing',
+    github: 'https://github.com/mohdshadadhossain/SQL_DataCleaning_Processing',
+    title: 'Advanced Data Cleaning and Processing with SQL',
+    desc: 'This project focuses on data cleaning and processing of the Nashville Housing dataset using SQL. Key tasks included standardizing formats, handling missing values, and removing duplicates. It ensures clean, consistent data for further analysis and insights',
+    tech1: 'SQL',
+    tech2: 'Microsoft Excel',
+
+  },
+  {
+    id: 1,
+    image: img6,
+    demo: 'https://www.youtube.com',
+    liveLink: 'https://github.com/mohdshadadhossain/Coffee_Sales_Analysis',
+    github: 'https://github.com/mohdshadadhossain/Coffee_Sales_Analysis',
+    title: 'Sales Analysis Using Excel: Uncovering Insights from Coffee Sales Data',
+    desc: 'This project uses advanced Excel functions (XLOOKUP, INDEX/MATCH, SUMIFS) to analyze coffee sales, uncover trends, and assess customer behavior. It includes creating bar charts and dashboards in Excel, demonstrating skills in data cleaning, trend analysis, and visualization',
+    tech1: '',
+    tech2: 'Microsoft Excel(Advanced)',
+
+  },
   {
     id: 2,
     image: img9,

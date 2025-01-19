@@ -24,10 +24,10 @@ const Home = () => {
           Mohammed Shadad Hossain
         </h1>
         <span className="subTitle">
-          I build responsive and user-friendly interfaces for web applications.
+          I analyse complex datasets to derive actionable insights.
         </span>
         <p className="homeParagraph">
-          I write clean, efficient code that aligns with modern design standards to deliver intuitive user experiences.
+          I use advanced tools to transform raw data into meaningful visualizations for informed decision-making.
         </p>
 
         <div className="lowerHomeSection">
