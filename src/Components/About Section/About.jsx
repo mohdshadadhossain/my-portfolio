@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import img from '../../Assets/Picture.jpg'
 import { VscCloudDownload } from 'react-icons/vsc'
-// import cvv from '../../Assets/Mohammed_DataAnalyst_CV.docx'
+// import cvv from '../../Assets/Mohaed_DataAnalyst_CV.docx'
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
           </h4>
 
           <div className="aboutBtn">
-            <a className='flex' href="Mohammed_DataAnalyst_CV.docx" download="Mohammed_DataAnalyst_CV.docx" >Download CV <VscCloudDownload /></a>
+            <a className='flex' href="Mohaed_DataAnalyst_CV.docx" download="Mohamd_DataAnalyst_CV.docx" >Download CV <VscCloudDownload /></a>
           </div>
         </div>
         <div className="aboutImgDiv">

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './navbar.css'
 import { TbGridDots } from 'react-icons/tb'
 import { AiFillCloseCircle } from 'react-icons/ai'
-// import cv from '../../../public\cv\Mohammed_DataAnalyst_CV.docx'
+// import cv from '../../../public\cv\Mohammed_Datnalyst_CV.docx'
 
 const Navbar = () => {
   // code to toggle on and off the navbar at small width.
@@ -49,7 +49,7 @@ const Navbar = () => {
             <a href="#contact" className="navLink"><span className='headerNumber'>4.</span>Contact</a>
           </li>
           <button className='btn'>
-            <a href="Mohammed_DataAnalyst_CV.docx" download="Mohammed_DataAnalyst_CV.docx">Resume</a>
+            <a href="MohamDataAnalyst_CV.docx" download="Mohaed_DataAnalyst_CV.docx">Resume</a>
           </button>
         </ul>
 
